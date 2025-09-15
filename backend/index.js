@@ -7,7 +7,7 @@ const express = require('express')
 const cors = require('cors')
 
 // const db= require('./DB/connection')
-
+require('./config/connection')
 // const router = require('./Routes/router')
 
 //3 create an app using expres
